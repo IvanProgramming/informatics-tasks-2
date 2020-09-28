@@ -1,7 +1,7 @@
 n = int(input())
 c = 1
 nums = []
-while c >= n:
+while len(nums) != n:
     if c % 2 == 0:
         nums.append(c)
     c += 1
