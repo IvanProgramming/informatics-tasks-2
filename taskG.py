@@ -6,4 +6,7 @@ while e != 100000:
     if e % a == b and e % c == d:
         res.append(e)
     e += 1
-print(*res)
+if res:
+    print(*res)
+else:
+    print("-1")
