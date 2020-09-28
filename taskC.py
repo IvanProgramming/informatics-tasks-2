@@ -1,5 +1,5 @@
 n = int(input())
-c = 0
+c = 1
 nums = []
 while c >= n:
     if c % 2 == 0:
